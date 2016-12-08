@@ -13,21 +13,21 @@ import javax.swing.JPanel;
 import javax.swing.Timer;
 
 public class Board extends JPanel implements ActionListener {
-
     final int BoardWidth = 12;
-    final int BoardHeight = 24;
+    final int BoardHeight = 18;
     final int SCORE = 100;
 
     Timer timer;
     boolean isFallingFinished = false;
     boolean isStarted = false;
     boolean isPaused = false;
+    
     int numLinesRemoved = 0;
     int curX = 0;
     int curY = 0;
     int count = 0;
     int score = 0;
-    int propSpeed = 1;//3
+    int propSpeed = 1;  //Ban dau la: 3
     int numOfShape = 7;
     JLabel statusbar;
     MyShape curPiece;
