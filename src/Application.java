@@ -14,7 +14,7 @@ public class Application {
     public Application()
     {
             tetris = new Tetris(this);
-    tetris.setLocationRelativeTo(null);
+            tetris.setLocationRelativeTo(null);
     }
 
      public static void main(String[] args) {
